@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState} from 'react';
 import { Carousel } from 'antd';
 
 
@@ -19,19 +19,19 @@ const iframeStyle = {
 //Lista de todos los reportes a mostrar
 const iframeData = [
   {
-    title: 'Finanzas',
+    title: 'Facturación',
     src: 'https://app.powerbi.com/view?r=eyJrIjoiMjE3OGZmMDMtNTU0Zi00OGU5LWJhYjYtMjY5OGU2MmUwZjlkIiwidCI6Ijc2NTRiNjhkLTBkMmQtNGE2MC05NjAxLTVlMDVmOGU4MjU0MyIsImMiOjJ9',
-    id: 'Finanzas1',
+    id: 'Facturacion1',
   },
   {
-    title: 'Finanzas',
-    src: 'https://app.powerbi.com/view?r=eyJrIjoiMjE3OGZmMDMtNTU0Zi00OGU5LWJhYjYtMjY5OGU2MmUwZ[…]E2MC05NjAxLTVlMDVmOGU4MjU0MyIsImMiOjJ9&pageName=ReportSection',
-    id: 'Finanzas2',
+    title: 'Facturación',
+    src: 'https://app.powerbi.com/view?r=eyJrIjoiMjE3OGZmMDMtNTU0Zi00OGU5LWJhYjYtMjY5OGU2MmUwZjlkIiwidCI6Ijc2NTRiNjhkLTBkMmQtNGE2MC05NjAxLTVlMDVmOGU4MjU0MyIsImMiOjJ9',
+    id: 'Facturacion2',
   },
   {
-    title: 'Finanzas',
-    src: 'https://app.powerbi.com/view?r=eyJrIjoiMjE3OGZmMDMtNTU0Zi00OGU5LWJhYjYtMjY5OGU2MmUwZ[…]U4MjU0MyIsImMiOjJ9&pageName=ReportSectionddd41b5c3b6404f36934',
-    id: 'Finanzas3',
+    title: 'Facturación',
+    src: 'https://app.powerbi.com/view?r=eyJrIjoiMjE3OGZmMDMtNTU0Zi00OGU5LWJhYjYtMjY5OGU2MmUwZjlkIiwidCI6Ijc2NTRiNjhkLTBkMmQtNGE2MC05NjAxLTVlMDVmOGU4MjU0MyIsImMiOjJ9',
+    id: 'Facturacion3',
   }
 ];
 
