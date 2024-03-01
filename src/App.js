@@ -32,6 +32,16 @@ const iframeData = [
     title: 'Facturación',
     src: 'https://app.powerbi.com/view?r=eyJrIjoiMjE3OGZmMDMtNTU0Zi00OGU5LWJhYjYtMjY5OGU2MmUwZjlkIiwidCI6Ijc2NTRiNjhkLTBkMmQtNGE2MC05NjAxLTVlMDVmOGU4MjU0MyIsImMiOjJ9&pageName=ReportSectionddd41b5c3b6404f36934',
     id: 'Facturacion3',
+  },
+  {
+    title: 'Cuentas por Pagar',
+    src: 'https://app.powerbi.com/view?r=eyJrIjoiOTRkMWQ3OTItYjBiOC00MmMxLWJkYjQtZTlmYThhMzM2ZDRmIiwidCI6Ijc2NTRiNjhkLTBkMmQtNGE2MC05NjAxLTVlMDVmOGU4MjU0MyIsImMiOjJ9',
+    id: 'CxP1',
+  },
+  {
+    title: 'Cuentas por Cobrar',
+    src: 'https://app.powerbi.com/view?r=eyJrIjoiOTNlNTY0ZmUtN2UxZi00MmI2LTk0OGMtMDYxYmQ3MjU1MDQxIiwidCI6Ijc2NTRiNjhkLTBkMmQtNGE2MC05NjAxLTVlMDVmOGU4MjU0MyIsImMiOjJ9',
+    id: 'CxC1',
   }
 ];
 
