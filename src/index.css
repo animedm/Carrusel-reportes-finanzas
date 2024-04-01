@@ -10,8 +10,8 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
-    
+
 }
 :where(.css-dev-only-do-not-override-18iikkb).ant-carousel .slick-dots li button{
-  background: black !important;
+  background: black  !important;
 }
